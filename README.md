@@ -1,13 +1,7 @@
-**www.openbiometrics.org**
+1) Please make sure you have installed CMake at least in version 2.8.9
 
-1) Identify the latest stable [release tag](https://github.com/biometrics/openbr/releases) such as "v1.1.0"
+2) Please make sure you have installed Visual Studio 2019
 
-2) Download all OpenBR source code and switch to that release tag:
+3) Just start `"start.bat"` to build
 
-    $ git clone https://github.com/biometrics/openbr.git
-    $ cd openbr
-    $ git checkout <tag>   (eg: git checkout v1.1.0)
-    $ git submodule init
-    $ git submodule update
-    
-3) Build OpenBR by following the **[Build Instructions](http://openbiometrics.org/docs/install/)** for your OS.
+4) After processing, the compiled files are located in `"./build-msvc2019/install/"`
